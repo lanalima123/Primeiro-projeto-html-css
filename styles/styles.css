@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap') ;
+
+*{ 
+    margin: 0;
+    padding: 0;
+ }
+ :root{
+    --cor-primaria : black ;
+    --cor-secundaria : white ;
+    --cor-terciaria : aqua ;
+    --font-primaria : 'Krona One', sans-serif ;
+    --font-secundaria : 'Montserrat' , sans-serif ;
+ }
+body {
+    height: 100wh;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+.titulo-destaque {
+    color: var(--cor-terciaria);
+}
+
+.apresentacao{
+    padding: 8% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.apresentacao__conteudo {
+    width: 600px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    
+    
+}
+
+.apresentacao__conteudo__titulo {
+    font-family: var(--font-primaria);
+    font-size: 36px ;
+}
+.apresentacao__conteudo__corpo {
+    font-size: 24px ;
+    font-family: var(--font-secundaria) ;
+    background-color: black;
+    padding-block-end: 21px;
+}
+.apresentacao__links { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    font-family: var(--font-primaria);
+    font-weight: 400px;
+    font-size: 20px;
+    
+    
+
+}
+.apresentacao__link__link {
+display:flex;
+justify-content:center ;
+gap: 16px;
+background-color: var(--cor-primaria);
+width: 400px;
+border-radius: 8px;
+text-align: center;
+font-size: 24px;
+color:var(--cor-secundaria);
+padding: 2.15% 0;
+text-decoration: none;
+font-style:inherit ;
+border: 10px;
+border: 2px solid var(--cor-terciaria);
+
+}
+.apresentacao__link__link:hover{
+    background-color: #272727;
+}
+.rodapé{
+    background-color: var(--cor-terciaria);
+     text-align: center;
+    color: var(--cor-primaria);
+    font-family: var(--font-secundaria);
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 2.1%;
+    
+}
+.cabecalho__conteudo__link{
+    background-color: var(--cor-primaria);
+    text-decoration: none;
+    font-family: var(--font-primaria);
+    font-size: 20px;
+    padding: 1%;
+    color: var(--cor-terciaria);
+}
+.cabecalho__conteudo{
+    display: flex;
+    justify-content:center;
+
+}
+.cabecalho__conteudo__link:hover {
+    background-color: #272727;
+}
